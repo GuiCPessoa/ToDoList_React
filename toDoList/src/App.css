@@ -25,7 +25,6 @@ body{
   max-width: 46.875rem;
   margin: 0 auto 38.75rem;
   padding: 1.25rem 1.875rem;
-  background-color: #1e6f9f;
 }
 
 h1 {
@@ -42,4 +41,46 @@ p {
 
 input {
   box-sizing: border-box;
+}
+
+button {
+  background-color: var(--blue);
+  color: var(--gray-100);
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  opacity: 0.8;
+  transform: 0.3s;
+}
+
+button:hover{
+  opacity: 1;
+}
+
+.complete {
+  background-color: var(--purple);
+}
+
+.remove {
+  background-color: var(--purple-dark);
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+}
+
+input, select {
+  background-color: var(--gray-500);
+  color: var(--gray-300);
+  padding: 1rem;
+  margin-bottom: 0.625rem;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+}
+
+input:hover, select:hover {
+  color: var(--gray-100);
+  border: 1px solid var(--purple);
 }
