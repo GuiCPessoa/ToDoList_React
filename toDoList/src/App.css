@@ -29,6 +29,7 @@ body{
 
 h1 {
   text-align: center;
+  font-weight: bold;
 }
 
 h2 {
@@ -46,7 +47,8 @@ input {
 button {
   background-color: var(--blue);
   color: var(--gray-100);
-  padding: 1rem 1rem;
+  padding: 0.75rem 1rem;
+  margin-right: 0.65rem;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -58,12 +60,32 @@ button:hover{
   opacity: 1;
 }
 
+.todo-list {
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--gray-400);
+}
+
+.todo {
+  background-color: var(--gray-500);
+  box-shadow: 0 0 10px var(--gray-700);
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 .complete {
   background-color: var(--purple);
+  
 }
 
 .remove {
   background-color: var(--purple-dark);
+  
 }
 
 .todo-form {
