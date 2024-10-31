@@ -121,3 +121,18 @@ input:hover, select:hover {
   color: var(--gray-100);
   border: 1px solid var(--purple);
 }
+
+
+.filter, .search {
+  border-bottom: 1px solid var(--gray-400);
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  
+}
+
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
